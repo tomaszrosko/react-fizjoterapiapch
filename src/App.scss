@@ -1,0 +1,47 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.c-card {
+  background-color: #eaf2f5;
+
+  .rounded-img {
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    border-radius: 50%;
+  }
+}
+
+.btn {
+  width: 100%;
+}
+
+.ic-phone {
+  margin-right: .5rem;
+}
+
+.ic-tool {
+  margin-left: .5rem;
+}
+
+.card-body {
+  a {
+    text-decoration: none;
+    color: var(--bs-dark);
+  }
+}
