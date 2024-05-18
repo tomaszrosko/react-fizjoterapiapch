@@ -11,7 +11,7 @@ function Index() {
                 <Row>
                     <Col xs={12} className={"px-0 position-relative"}>
                         <div className="c-first-slide__title">
-                            <h1>Lorem Ipsum</h1>
+                            <h1>Umów się</h1>
                         </div>
                         <div className="c-first-slide__photo">
                             <Card.Img variant="top" src={Main} loading="lazy"

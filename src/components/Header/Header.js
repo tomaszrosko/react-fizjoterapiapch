@@ -3,7 +3,8 @@ import Container from "react-bootstrap/Container";
 import {Link} from "react-router-dom";
 import {Col, Row} from "react-bootstrap";
 import DropDownNav from './Dropdown';
-import Logo from "../../assets/img/svg/logo.svg";
+import Logo from "../../assets/img/logo-header.jpg";
+import LogoText from "../../assets/img/logo-text-header.jpg";
 
 
 function Header() {
@@ -13,7 +14,7 @@ function Header() {
         <Row>
           <Col className={"c-nav"}>
             <div className={"c-nav__box-left"}>
-              <Link to="/"><img src={Logo} className={"ic-logo"} width={24} height={15} alt="Logo"/></Link>
+              <Link to="/"><img src={LogoText} className={"ic-logo"} width={170} height={59} alt="Logo"/></Link>
             </div>
             <div className="c-nav__burger d-sm-none">
               <DropDownNav/>
