@@ -11,10 +11,10 @@ function FirstVisit() {
         <>
             <section className={'c-section-first-visit'}>
                 <Container>
-                    <Row className={'justify-content-center'}>
+                    <Row className={'justify-content-center mx-auto'}>
                         <Col sm={10}>
                             <Row>
-                                <Col sm={12}>
+                                <Col xs={12}>
                                     <h1 className={'text-center'}>Pierwsza wizyta u fizjoterapeuty – Co się
                                         spodziewać</h1>
                                     <p>
@@ -26,11 +26,11 @@ function FirstVisit() {
                                         spotkanie.
                                     </p>
                                 </Col>
-                                <Col md={4}>
+                                <Col xs={12} md={4}>
                                     <img src={Photo} className={"img-fluid c-section-first-visit__photo"} width={5000} height={3001} alt="Portrait"
                                          title={"Portrait"}/>
                                 </Col>
-                                <Col md={8} className={'c-text'}>
+                                <Col xs={12} md={8} className={'c-text'}>
                                     <div className={"c-text__content"}>
                                         <p>Witaj na naszej stronie! Jeśli przygotowujesz się do pierwszej wizyty u
                                             fizjoterapeuty, możesz czuć się trochę zdezorientowany. Ale nie martw się,
