@@ -15,3 +15,10 @@
     }
   }
 }
+@include media-breakpoint-down(md) {
+  .section-aboutMe {
+    .c-photo {
+      padding: 0 0 1rem;
+    }
+  }
+}

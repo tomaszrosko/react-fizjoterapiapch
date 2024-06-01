@@ -11,7 +11,7 @@ function AboutMe() {
         <section className={"section-aboutMe"}>
             <Container>
                 <Row className={'row-content'}>
-                    <Col sm={5}>
+                    <Col sm={5} className={'c-photo'}>
                         <img src={Portrait} className={"img-fluid"} width={640} height={959} alt="Portrait" title={"Portrait"}/>
                     </Col>
                     <Col sm={7} className={'c-text'}>
