@@ -1,12 +1,12 @@
 import './Home.scss'
 import FirstSection from '../FirstSlide/FirstSlide.js'
-import AboutMe from "../AboutMe/AboutMe";
+import FooterTop from "../Footer/FooterTop";
 
 function Home() {
   return (
     <>
       <FirstSection />
-      <AboutMe />
+      <FooterTop />
     </>
   );
 }

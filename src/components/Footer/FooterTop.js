@@ -1,4 +1,4 @@
-import './AboutMe.scss'
+import './FooterTop.scss'
 import Container from "react-bootstrap/Container";
 import {Col, Row} from "react-bootstrap";
 import LogoBlack from "../../assets/img/svg/house.svg";
@@ -30,13 +30,14 @@ function SectionDate() {
                         </Col>
                         <Col md={4} className={"box-contact"}>
                             <div className="title" id={"contact"}>Kontakt</div>
-                            <a href="/" className={"link-footer"}>
+                            <a href="/public" className={"link-footer"}>
                                 <img src={LogoBlack} className={"ic-logo-black"}
                                      width={24} height={24} alt="Logo"/>
                                 <p>{lastNameReverse} {firstNameReverse}</p></a>
-                            <a href="tel:+48668479065" className={"link-footer"}> <img src={Phone} className={"ic-phone"}
-                                                                                      width={24} height={24}
-                                                                                      alt="Phone"/>
+                            <a href="tel:+48668479065" className={"link-footer"}>
+                                <img src={Phone} className={"ic-phone"}
+                                     width={24} height={24}
+                                     alt="Phone"/>
                                 <p>{mobileNumberReverse}</p></a>
                             <a href="mailto:{email}" className="link-footer">
                                 <img src={Message} className={"ic-message"} width={24} height={24} alt="Message"/>

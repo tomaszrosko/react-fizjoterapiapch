@@ -1,5 +1,5 @@
 import './App.scss';
-import Footer from './components/Footer/Footer'
+import FooterBottom from './components/Footer/FooterBottom'
 import {Route, Routes} from "react-router-dom";
 import Layout from './components/Layout/Layout'
 import Home from "./components/Home/Home";
@@ -20,7 +20,7 @@ function App() {
           <Route path='*' element={<NotFound/>}/>
         </Route>
       </Routes>
-      <Footer/>
+      <FooterBottom/>
     </>
   )
 }

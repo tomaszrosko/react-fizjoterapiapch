@@ -3,7 +3,6 @@ import Container from "react-bootstrap/Container";
 import {Link} from "react-router-dom";
 import {Col, Row} from "react-bootstrap";
 import DropDownNav from './Dropdown';
-import Logo from "../../assets/img/logo-header.jpg";
 import LogoText from "../../assets/img/logo-text-header.jpg";
 
 

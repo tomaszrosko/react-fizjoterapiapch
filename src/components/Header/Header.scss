@@ -268,10 +268,10 @@ header {
       }
     }
 
-    &__nav-item:not(:last-child)::after {
-      content: '';
-      border-right: 2px solid $nav-font;
-    }
+    //&__nav-item:not(:last-child)::after {
+    //  content: '';
+    //  border-right: 2px solid $nav-font;
+    //}
   }
 }
 

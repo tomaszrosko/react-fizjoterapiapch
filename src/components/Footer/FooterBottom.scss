@@ -2,22 +2,15 @@
 @import '../../assets/scss/variables';
 
 footer {
-  .container-fluid {
-    position: relative;
-    height: 157px;
-    background: $mountain-heaven url('./../../assets/img/svg/tatry.svg') no-repeat top left;
-    background-size: cover;
+  background-color: $nav-bc;
+  text-align: center;
+  padding: 1rem 0;
+  a {
     @extend %color-black;
-  }
-
-  .copyright {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    width: 100%;
-    transform: translate(-50%, -50%);
+    text-decoration: none;
   }
 }
+
 @include media-breakpoint-down(md) {
   footer {
     .container-fluid {
@@ -27,6 +20,7 @@ footer {
     }
   }
 }
+
 @include media-breakpoint-only(md) {
   footer {
     .container-fluid {
@@ -36,6 +30,7 @@ footer {
     }
   }
 }
+
 @include media-breakpoint-only(lg) {
   footer {
     .container-fluid {
@@ -45,6 +40,7 @@ footer {
     }
   }
 }
+
 @include media-breakpoint-only(xl) {
   footer {
     .container-fluid {
@@ -54,6 +50,7 @@ footer {
     }
   }
 }
+
 @include media-breakpoint-only(xl) {
   footer {
     .container-fluid {
