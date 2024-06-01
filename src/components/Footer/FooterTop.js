@@ -25,7 +25,7 @@ function SectionDate() {
             <Container fluid>
                 <Container>
                     <Row>
-                        <Col md={8} className={'d-flex align-items-center justify-content-between'}>
+                        <Col md={8} className={'d-flex align-items-center justify-content-around'}>
                             <p>Tutaj możesz znaleźć dogodny termin i umówić wizytę.</p>
                             <a href={"https://zarejestrowani.pl/w/ivB6FgSCdY0hZSf_s0c4wA/"} target="_blank" rel="noopener noreferrer" title={"Przycisk do umówienia się"} className={'btn btn-dark'}>Umów się</a>
                         </Col>

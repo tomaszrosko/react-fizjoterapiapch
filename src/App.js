@@ -7,6 +7,8 @@ import Contact from "./components/Contact/Contact";
 import NotFound from './components/NotFound/notFound'
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import AboutMe from "./components/AboutMe/AboutMe";
+import PriceList from "./components/PriceList/priceList";
+import FirstVisit from "./components/FirstVisit/firstVisit";
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
           <Route index element={<Home/>}/>
           <Route path='/contact' element={<Contact/>}/>
             <Route path='/aboutMe' element={<AboutMe/>}/>
-          {/*<Route path='/entry/:id' element={<ArticleDetail/>}/>*/}
+            <Route path='/price-list' element={<PriceList/>}/>
+            <Route path='/first-visit' element={<FirstVisit/>}/>
+            {/*<Route path='/entry/:id' element={<ArticleDetail/>}/>*/}
           <Route path='*' element={<NotFound/>}/>
         </Route>
       </Routes>

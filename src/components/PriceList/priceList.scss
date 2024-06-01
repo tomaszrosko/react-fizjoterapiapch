@@ -1,0 +1,23 @@
+
+.section-price-list {
+  .container {
+    padding: 4rem 0;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  .accordion-header{
+    h2 {
+      margin-bottom: 0;
+    }
+  }
+  .accordion-body {
+    ul {
+      margin-bottom: 0;
+    }
+  }
+  h3 {
+    margin: 1rem 0;
+  }
+}

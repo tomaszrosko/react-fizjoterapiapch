@@ -1,0 +1,18 @@
+
+.section-first-visit {
+  .container {
+    padding: 2rem 0;
+  }
+
+  ol {
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .c-text ol li::before {
+    content: "\2713";
+    color: green;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+}

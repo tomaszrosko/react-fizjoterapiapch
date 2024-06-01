@@ -25,7 +25,13 @@ function Header() {
                     <Link to="/">Home</Link>
                   </li>
                   <li className={"c-navbar__nav-item"}>
-                    <Link to="/aboutMe">About Me</Link>
+                    <Link to="/aboutMe">O mnie</Link>
+                  </li>
+                  <li className={"c-navbar__nav-item"}>
+                    <Link to="/first-visit">Pierwsza wizyta</Link>
+                  </li>
+                  <li className={"c-navbar__nav-item"}>
+                    <Link to="/price-list">Cennik</Link>
                   </li>
                   <li className={"c-navbar__nav-item c-navbar__nav-contact"}>
                     <Link to="/contact">Kontakt</Link>
