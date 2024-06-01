@@ -3,10 +3,10 @@
 @import '../../assets/scss/variables';
 @import '../../assets/scss/mixins/functions';
 
-.section-date {
+.section-footer-top {
   .container-fluid {
     background-color: $mountain-heaven;
-    padding-top: 2rem;
+    padding: 1rem 0;
   }
 
   h1 {
@@ -16,6 +16,9 @@
   .title {
     font-size: 1.5rem;
     font-weight: 700;
+  }
+  p {
+    margin-bottom: 0;
   }
 
   .box-contact {

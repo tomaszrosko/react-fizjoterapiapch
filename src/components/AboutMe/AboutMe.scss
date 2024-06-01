@@ -1,0 +1,17 @@
+@import '../../assets/scss/element/index';
+@import '../../assets/scss/variables';
+
+.section-aboutMe {
+  .row-content {
+    padding: 4rem 0;
+  }
+  .c-text {
+    p:last-child {
+      margin-bottom: 0;
+    }
+    &__content {
+      position: sticky;
+      top: 77px;
+    }
+  }
+}

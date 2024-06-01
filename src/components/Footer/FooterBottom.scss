@@ -11,58 +11,6 @@ footer {
   }
 }
 
-@include media-breakpoint-down(md) {
-  footer {
-    .container-fluid {
-      height: 100px;
-      background: $mountain-heaven url('./../../assets/img/svg/tatry-576.svg') no-repeat top left;
-      background-size: cover;
-    }
-  }
-}
-
-@include media-breakpoint-only(md) {
-  footer {
-    .container-fluid {
-      height: 100px;
-      background: $mountain-heaven url('./../../assets/img/svg/tatry-768.svg') no-repeat top left;
-      background-size: cover;
-    }
-  }
-}
-
-@include media-breakpoint-only(lg) {
-  footer {
-    .container-fluid {
-      height: 100px;
-      background: $mountain-heaven url('./../../assets/img/svg/tatry-992.svg') no-repeat top left;
-      background-size: cover;
-    }
-  }
-}
-
-@include media-breakpoint-only(xl) {
-  footer {
-    .container-fluid {
-      height: 100px;
-      background: $mountain-heaven url('./../../assets/img/svg/tatry-1200.svg') no-repeat top left;
-      background-size: cover;
-    }
-  }
-}
-
-@include media-breakpoint-only(xl) {
-  footer {
-    .container-fluid {
-      background-color: $mountain-heaven;
-      height: 100px;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-  }
-}
-
-
 @include media-breakpoint-down(sm) {
   footer {
     .copyright {

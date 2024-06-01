@@ -21,12 +21,13 @@ const emailReverse = reverseString(email)
 
 function SectionDate() {
     return (
-        <section className={"section-date"}>
+        <section className={"section-footer-top"}>
             <Container fluid>
                 <Container>
                     <Row>
                         <Col md={8} className={'d-flex align-items-center justify-content-between'}>
-                            <p>Znajdź wolny, dogodny termin i umówi wizytę </p><a href={"#"}>Umów się</a>
+                            <p>Tutaj możesz znaleźć dogodny termin i umówić wizytę.</p>
+                            <a href={"https://zarejestrowani.pl/w/ivB6FgSCdY0hZSf_s0c4wA/"} target="_blank" rel="noopener noreferrer" title={"Przycisk do umówienia się"} className={'btn btn-dark'}>Umów się</a>
                         </Col>
                         <Col md={4} className={"box-contact"}>
                             <div className="title" id={"contact"}>Kontakt</div>

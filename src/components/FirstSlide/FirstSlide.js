@@ -11,11 +11,12 @@ function Index() {
                 <Row>
                     <Col xs={12} className={"px-0 position-relative"}>
                         <div className="c-first-slide__title">
-                            <h1>Umów się</h1>
+                            <h1>
+                                <a href={"https://zarejestrowani.pl/w/ivB6FgSCdY0hZSf_s0c4wA/"} target="_blank" rel="noopener noreferrer" title={"Przycisk do umówienia się"}>Umów się</a>
+                            </h1>
                         </div>
                         <div className="c-first-slide__photo">
-                            <Card.Img variant="top" src={Main} loading="lazy"
-                                      alt={"Przygody o których nie marzyliśmy"}/>
+                            <Card.Img variant="top" src={Main} loading="lazy" alt={"Przygody o których nie marzyliśmy"}/>
                         </div>
                     </Col>
                 </Row>

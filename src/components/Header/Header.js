@@ -25,7 +25,7 @@ function Header() {
                     <Link to="/">Home</Link>
                   </li>
                   <li className={"c-navbar__nav-item"}>
-                    <Link to="/contact">About Me</Link>
+                    <Link to="/aboutMe">About Me</Link>
                   </li>
                   <li className={"c-navbar__nav-item c-navbar__nav-contact"}>
                     <Link to="/contact">Kontakt</Link>
