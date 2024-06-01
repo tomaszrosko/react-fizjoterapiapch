@@ -3,13 +3,13 @@ import './firstVisit.scss'
 import FooterTop from "../Footer/FooterTop";
 import Container from "react-bootstrap/Container";
 import {Col, Row} from "react-bootstrap";
-import Portrait from "../../assets/img/portrait.jpg";
+import Photo from "../../assets/img/first-visit.jpg";
 import React from "react";
 
 function FirstVisit() {
     return (
         <>
-            <section className={'section-first-visit'}>
+            <section className={'c-section-first-visit'}>
                 <Container>
                     <Row className={'justify-content-center'}>
                         <Col sm={10}>
@@ -26,11 +26,11 @@ function FirstVisit() {
                                         spotkanie.
                                     </p>
                                 </Col>
-                                <Col sm={4}>
-                                    <img src={Portrait} className={"img-fluid"} width={640} height={959} alt="Portrait"
+                                <Col md={4}>
+                                    <img src={Photo} className={"img-fluid c-section-first-visit__photo"} width={5000} height={3001} alt="Portrait"
                                          title={"Portrait"}/>
                                 </Col>
-                                <Col sm={8} className={'c-text'}>
+                                <Col md={8} className={'c-text'}>
                                     <div className={"c-text__content"}>
                                         <p>Witaj na naszej stronie! Jeśli przygotowujesz się do pierwszej wizyty u
                                             fizjoterapeuty, możesz czuć się trochę zdezorientowany. Ale nie martw się,
