@@ -10,12 +10,12 @@ function AboutMe() {
     return (
         <section className={"section-aboutMe"}>
             <Container>
-                <Row className={'row-content'}>
-                    <Col sm={5} className={'c-photo'}>
-                        <img src={Portrait} className={"img-fluid"} width={640} height={959} alt="Portrait" title={"Portrait"}/>
+                <Row className={'c-row-content'}>
+                    <Col sm={5} className={'c-row-content__photo'}>
+                        <img src={Portrait} className={"img-fluid c-row-content__photo-img"} width={640} height={959} alt="Portrait" title={"Portrait"}/>
                     </Col>
-                    <Col sm={7} className={'c-text'}>
-                        <div className={"c-text__content"}>
+                    <Col sm={7} className={'c-row-content__text'}>
+                        <div className={"c-row-content__text-box"}>
                             <h3>About Me</h3>
                             <p>
                                 Cześć! Nazywam się Paulina Chmielewska, jestem dyplomowanym fizjoterapeutą dziecięcym z

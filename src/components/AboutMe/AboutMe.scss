@@ -2,23 +2,31 @@
 @import '../../assets/scss/variables';
 
 .section-aboutMe {
-  .row-content {
+  .c-row-content {
     padding: 4rem 0;
-  }
-  .c-text {
-    p:last-child {
-      margin-bottom: 0;
+
+    &__text {
+      p:last-child {
+        margin-bottom: 0;
+      }
     }
-    &__content {
-      position: sticky;
+    &__text-box, &__photo-img {
+    position: sticky;
       top: 77px;
     }
   }
+
+  .c-text {
+
+  }
 }
+
 @include media-breakpoint-down(md) {
   .section-aboutMe {
-    .c-photo {
-      padding: 0 0 1rem;
+    .c-row-content {
+      &__photo {
+        padding: 0 0 1rem;
+      }
     }
   }
 }
