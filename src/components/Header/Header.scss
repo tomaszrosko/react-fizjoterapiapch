@@ -146,7 +146,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  //min-height: 3.25rem;
   min-height: auto;
   background-color: $nav-bc;
 
@@ -360,6 +359,9 @@ header {
 .dropdown-toggle:after {
   display: none;
 }
+.dropdown-menu {
+  inset: 10px auto auto 0 !important;
+}
 
 .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
   color: var(--bs-btn-active-color);
@@ -414,6 +416,7 @@ header {
   a {
     text-decoration: none;
     text-align: center;
+    color: blue;
   }
 }
 

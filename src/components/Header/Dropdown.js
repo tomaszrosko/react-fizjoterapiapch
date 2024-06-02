@@ -5,10 +5,10 @@ import LogoBlack from "../../assets/img/svg/logo-black.svg";
 import Phone from "../../assets/img/svg/phone.svg";
 import Message from "../../assets/img/svg/message.svg";
 
-const firstName = 'Tomasz';
-const lastName = 'Rośko';
-const mobileNumber = "+48 667 264 375";
-const email = 'tomasz.rosko@gmail.com'
+const firstName = 'Paulina';
+const lastName = 'Chmielewska';
+const mobileNumber = '+48 531 441 810';
+const email = 'paulina.toda.com'
 
 function reverseString(str) {
   return str.split("").reverse().join("");
@@ -35,8 +35,18 @@ function DropdownNav() {
               </NavLink>
             </Dropdown.Item>
             <Dropdown.Item>
-              <NavLink to="/allEntries"  activeClassName="active">
-                Case study
+              <NavLink to="/aboutMe" activeClassName="active">
+                O mnie
+              </NavLink>
+            </Dropdown.Item>
+            <Dropdown.Item>
+              <NavLink to="/first-visit" activeClassName="active">
+                Pierwsza wizyta
+              </NavLink>
+            </Dropdown.Item>
+            <Dropdown.Item>
+              <NavLink to="/price-list" activeClassName="active">
+                Cennik
               </NavLink>
             </Dropdown.Item>
             <Dropdown.Item>
