@@ -15,10 +15,10 @@ function Header() {
             <div className={"c-nav__box-left"}>
               <Link to="/"><img src={LogoText} className={"ic-logo"} width={170} height={59} alt="Logo"/></Link>
             </div>
-            <div className="c-nav__burger d-sm-none">
+            <div className="c-nav__burger d-md-none">
               <DropDownNav/>
             </div>
-            <div className={"c-navbar d-none d-sm-flex"}>
+            <div className={"c-navbar d-none d-md-flex"}>
               <div id={"nav-collapse"}>
                 <ul className={"c-navbar__nav"}>
                   <li className={"c-navbar__nav-item"}>
