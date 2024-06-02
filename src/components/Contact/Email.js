@@ -52,7 +52,7 @@ const Email = () => {
     };
 
     return (
-        <Col xs={12} md={5} className={"c-contact__box"}>
+        <Col xs={12} md={5} className={"c-contact__box order-1 order-md-0"}>
             <h2>Kontakt</h2>
             <form onSubmit={handleSubmit} className='emailForms'>
                 <label>

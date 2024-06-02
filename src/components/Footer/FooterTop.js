@@ -25,11 +25,10 @@ function SectionDate() {
             <Container fluid>
                 <Container>
                     <Row>
-                        <Col xs={12} md={8} className={'d-flex align-items-center justify-content-around order-1 order-md-0'}>
+                        <Col xs={12} md={9} className={'d-flex align-items-center justify-content-around order-1 order-md-0'}>
                             <Row className={'justify-content-around'}>
                                 <Col sm={9}>
                                     <p>Tutaj możesz znaleźć dogodny termin i umówić wizytę.</p>
-
                                 </Col>
                                 <Col sm={3}>
                                     <a href={"https://zarejestrowani.pl/w/ivB6FgSCdY0hZSf_s0c4wA/"} target="_blank"
@@ -38,7 +37,7 @@ function SectionDate() {
                                 </Col>
                             </Row>
                         </Col>
-                        <Col xs={12} md={4} className={'box-contact order-0 order-md-1'}>
+                        <Col xs={12} md={3} className={'box-contact order-0 order-md-1'}>
                             <div className="title" id={"contact"}>Kontakt</div>
                             <a href="/public" className={"link-footer"}>
                                 <img src={LogoBlack} className={"ic-logo-black"}

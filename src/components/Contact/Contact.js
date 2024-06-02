@@ -14,9 +14,9 @@ function Contact() {
                     <Container>
                         <Row>
                             <Email/>
-                            {/*<Map/>*/}
-                            <FooterTop/>
+                            <Map/>
                         </Row>
+                        <FooterTop/>
                     </Container>
                 </Container>
             </section>
