@@ -51,7 +51,7 @@
     overflow-y: auto !important;
   }
   a.active {
-      @extend %color-black;
+    @extend %color-black;
   }
 
 
@@ -415,3 +415,6 @@ header {
   }
 }
 
+.leaflet-touch-zoom {
+  z-index: 2;
+}

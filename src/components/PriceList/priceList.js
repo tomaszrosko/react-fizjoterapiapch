@@ -1,5 +1,4 @@
 import './priceList.scss'
-
 import Accordion from 'react-bootstrap/Accordion';
 import {Col, Row} from "react-bootstrap";
 import Container from "react-bootstrap/Container";
